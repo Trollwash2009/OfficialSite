@@ -1,0 +1,72 @@
+            /*********** Tag Selectors ********************/
+            
+            body {
+                font-family: "Montserrat-bold";
+                text-align: center;
+            }
+            
+            h1,
+            h2,
+            h3,
+            h4,
+            h5,
+            h6 {
+                font-family: "Montserrat-Bold";
+                color: #66BFBF;
+            }
+            
+            p {
+                color: #000;
+            }
+            /* Headings */
+            
+            .big-heading {
+                font-family: "Montserrat-Black";
+                font-size: 3.5rem;
+                line-height: 1.5;
+            }
+            
+            .section-heading {
+                font-size: 3rem;
+                line-height: 1.5;
+            }
+            /* Containers */
+            
+            .container-fluid {
+                padding: 2% 7% 15%;
+            }
+            /* Sections */
+            
+            .title-section {
+                font-family: "Montserrat-bold";
+                background-color: #66BFBF;
+                color: #fff;
+            }
+            
+            .white-section {
+                background-color: #fff;
+            }
+            /*Navigation Bar */
+            
+            .navbar {
+                padding: 0 0 4.5rem;
+                font-family: "Ubuntu";
+                color: #66BFBF;
+            }
+            
+            .navbar-brand {
+                font-family: "Ubuntu";
+                font-size: 2.5rem;
+                font-weight: bold;
+            }
+            
+            .nav-item {
+                padding: 0 18px;
+            }
+            
+            .nav-link {
+                font-size: 1.2rem;
+                font-family: "Ubuntu";
+            }
+            /*********** Class Selectors ********************/
+            /*********** id Selectors ********************/
