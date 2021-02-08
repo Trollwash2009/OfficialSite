@@ -22,8 +22,18 @@
             
             .big-heading {
                 font-family: "Montserrat-Black";
-                font-size: 3.5rem;
-                line-height: 1.5;
+                font-size: 2rem;
+                line-height: 1;
+                text-align: left;
+            }
+            
+            .bio-text {
+                font-family: "Montserrat-Black";
+                font-size: 1.5rem;
+                line-height: 1;
+                text-align: left;
+                margin-top: 30px;
+                padding-bottom: 10px;
             }
             
             .section-heading {
@@ -33,7 +43,7 @@
             /* Containers */
             
             .container-fluid {
-                padding: 2% 7% 15%;
+                padding: 2% 5% 3%;
             }
             /* Sections */
             
@@ -41,6 +51,8 @@
                 font-family: "Montserrat-bold";
                 background-color: #66BFBF;
                 color: #fff;
+                height: auto;
+                padding-bottom: 0;
             }
             
             .white-section {
@@ -70,3 +82,11 @@
             }
             /*********** Class Selectors ********************/
             /*********** id Selectors ********************/
+            
+            #top-cloud {
+                position: absolute;
+                height: 120px;
+                width: 250px;
+                right: 20px;
+                padding-bottom: 50px;
+            }
