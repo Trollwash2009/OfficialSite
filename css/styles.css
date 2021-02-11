@@ -27,8 +27,8 @@
                 text-align: left;
             }
             
-            .bio-text {
-                font-family: "Montserrat-Black";
+            #bio-text {
+                font-family: "Montserrat";
                 font-size: 1.5rem;
                 line-height: 1;
                 text-align: left;
@@ -80,8 +80,6 @@
                 font-size: 1.2rem;
                 font-family: "Ubuntu";
             }
-            /*********** Class Selectors ********************/
-            /*********** id Selectors ********************/
             
             #top-cloud {
                 position: absolute;
@@ -90,16 +88,23 @@
                 right: 20px;
                 padding-bottom: 50px;
             }
-            /* Features Section */
+            /* Skills Section */
             
-            #features {
+            #skills {
                 position: relative;
                 font-family: "Montserrat";
             }
             
-            .feature-title {}
+            #skills-head {
+                color: #66BFBF;
+                font-family: "Montserrat";
+                font-size: 3rem;
+                font-weight: bold;
+            }
             
-            .feature-box {
+            .skills-title {}
+            
+            .skills-box {
                 padding: 4.5%;
             }
             
@@ -110,6 +115,63 @@
             
             .icon:hover {
                 color: #66BFBF;
+            }
+            /* Employment Section */
+            
+            #employment {
+                font-family: "Montserrat";
+                background-color: #66BFBF;
+                position: relative;
+                color: #fff;
+            }
+            
+            #employment-head {
+                font-family: "Montserrat";
+                font-size: 3rem;
+                color: #fff;
+                height: auto;
+            }
+            
+            .employment-text {
+                font-family: "Montserrat";
+                color: #fff;
+                font-size: 1.5rem;
+                line-height: 1.5;
+            }
+            /* Personal Section */
+            
+            #personal {
+                font-family: "Montserrat";
+                position: relative;
+            }
+            
+            #personal-head {
+                font-family: "Montserrat";
+                font-size: 3rem;
+                height: auto;
+            }
+            
+            .personal-text {
+                font-family: "Montserrat";
+                color: #fff;
+                font-size: 1.5rem;
+                line-height: 1.5;
+            }
+            /* Footer */
+            
+            .footer-section {
+                font-family: "Montserrat-bold";
+                background-color: #66BFBF;
+                color: #fff;
+                height: auto;
+                padding-bottom: 0;
+            }
+            
+            #footer-head {
+                color: #fff;
+                font-family: "Montserrat";
+                font-size: 3rem;
+                font-weight: bold;
             }
             /* Modals */
             
@@ -125,9 +187,9 @@
                 text-align: left;
             }
             
-            .section-head {
+            .modal-head {
                 color: #66BFBF;
                 font-family: "Montserrat";
-                font-size: 0.8rem;
+                font-size: 1.2rem;
                 font-weight: bold;
             }
