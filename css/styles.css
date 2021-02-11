@@ -81,10 +81,6 @@
                 font-family: "Ubuntu";
             }
             /*********** Class Selectors ********************/
-            
-            .card {
-                min-height: 260px;
-            }
             /*********** id Selectors ********************/
             
             #top-cloud {
@@ -93,4 +89,45 @@
                 width: 250px;
                 right: 20px;
                 padding-bottom: 50px;
+            }
+            /* Features Section */
+            
+            #features {
+                position: relative;
+                font-family: "Montserrat";
+            }
+            
+            .feature-title {}
+            
+            .feature-box {
+                padding: 4.5%;
+            }
+            
+            .icon {
+                color: #000;
+                margin-bottom: 1rem;
+            }
+            
+            .icon:hover {
+                color: #66BFBF;
+            }
+            /* Modals */
+            
+            .modal-title {
+                font-family: "Montserrat";
+                font-size: 1rem;
+                font-weight: bold;
+            }
+            
+            .modal-body {
+                font-family: "Montserrat";
+                font-size: 0.8rem;
+                text-align: left;
+            }
+            
+            .section-head {
+                color: #66BFBF;
+                font-family: "Montserrat";
+                font-size: 0.8rem;
+                font-weight: bold;
             }
