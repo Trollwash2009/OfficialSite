@@ -1,57 +1,53 @@
 /*********** Tag Selectors ********************/
-body{
+
+body {
     margin: 0;
-    background-color: #e4f9f5;
+    background-color: #66BFBF;
     text-align: center;
     font-family: 'Montserrat Sans', serif;
 }
 
-h1{
+h1,
+h2 {
     margin-top: 0;
     font-family: 'Montserrat', cursive;
-    color: #66BFBF;
+    color: #fff;
 }
-h2{
-    font-family: 'Montserrat', serif;    
-    color: #66BFBF;
-}
-h3{
+
+h3 {
     font-family: 'Montserrat', serif;
 }
-div{
+
+div {
     background-color: #e4f9f5;
     margin: 0;
 }
-img{
+
+img {
     margin: 0px;
 }
-a{
-    color: #11999E;
+
+a {
+    color: #fff;
     font-family: 'Montserrat', serif;
     margin: 10px 20px;
     text-decoration: none;
 }
-a:hover{
+
+a:hover {
     color: #3498DB;
 }
 
+
 /*********** Class Selectors ********************/
-.links-table{
-    position: relative;
-    width: 500px;
-    margin: 0 auto;
-}
-.contactme-form{
-    position: relative;
-    width: 450px;
-    margin: 0 auto;
-}
-.copyright{
+
+.copyright {
     color: #eaf6f6;
     font-size: 0.75rem;
     padding: 20px 0;
 }
-.bottom-container{
+
+.bottom-container {
     position: relative;
     display: block;
     top: 246px;
@@ -59,28 +55,36 @@ a:hover{
     padding: 50px 0 20px;
 }
 
-*********** Id Selectors ********************/
-#customers {
-  font-family: 'Montserrat', serif; 
-  border-collapse: collapse;
-  width: 100%;
+*********** Id Selectors ********************/ #customers {
+    font-family: 'Montserrat', serif;
+    border-collapse: collapse;
+    width: 100%;
 }
 
-#customers td, #customers th {
-  border: 1px solid #4CAF50;
-  font-family: 'Montserrat', serif; 
-  padding: 8px;
-  text-align: left;
+#customers td,
+#customers th {
+    border: 1px solid #4CAF50;
+    font-family: 'Montserrat', serif;
+    padding: 8px;
+    text-align: left;
 }
 
-#customers tr:nth-child(even){background-color: #f2f2f2;}
+#customers tr:nth-child(even) {
+    background-color: #EAF6F6;
+}
 
-#customers tr:hover {background-color: #66BFBF;}
+#customers tr:hover {
+    background-color: #66BFBF;
+}
 
 #customers th {
-  padding-top: 12px;
-  padding-bottom: 12px;
-  text-align: left;
-  background-color: #4CAF50;
-  color: white;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #4CAF50;
+    color: white;
+}
+
+.employment-table-head {
+    color: #fff;
 }
