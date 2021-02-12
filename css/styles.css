@@ -132,21 +132,63 @@
                 height: auto;
             }
             
-            .employment-text {
+            .employment-item-heading {
                 font-family: "Montserrat";
                 color: #fff;
                 font-size: 1.5rem;
                 line-height: 1.5;
             }
+            
+            .employment-body {
+                font-family: "Montserrat";
+                color: #fff;
+                font-size: 1rem;
+                line-height: 1.5;
+            }
+            
+            .carousel-item {
+                padding: 7% 15%;
+                text-align: left;
+            }
+            /* Academic History Section */
+            
+            #academic-history {
+                font-family: "Montserrat";
+                color: #66BFBF;
+                position: relative;
+            }
+            
+            #academic-history-head {
+                font-family: "Montserrat";
+                color: #66BFBF;
+                font-size: 3rem;
+                height: auto;
+            }
+            
+            .academic-history-text {
+                font-family: "Montserrat";
+                font-size: 1.5rem;
+                line-height: 1.5;
+            }
+            
+            table {
+                margin: auto;
+            }
+            
+            #academic-table {
+                text-align: left;
+            }
             /* Personal Section */
             
             #personal {
                 font-family: "Montserrat";
+                background-color: #66BFBF;
                 position: relative;
             }
             
             #personal-head {
                 font-family: "Montserrat";
+                color: #fff;
                 font-size: 3rem;
                 height: auto;
             }
@@ -161,14 +203,13 @@
             
             .footer-section {
                 font-family: "Montserrat-bold";
-                background-color: #66BFBF;
-                color: #fff;
+                color: #66BFBF;
                 height: auto;
                 padding-bottom: 0;
             }
             
             #footer-head {
-                color: #fff;
+                color: #66BFBF;
                 font-family: "Montserrat";
                 font-size: 3rem;
                 font-weight: bold;

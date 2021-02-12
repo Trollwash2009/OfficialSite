@@ -9,7 +9,7 @@
     <link href="https://fonts.googleapis.com/css?family=Montserrat|Ubuntu" rel="stylesheet">
 
     <!-- CSS Stylesheets -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
     <link rel="stylesheet" href="css/styles.css">
 
     <!-- Font Awesome -->
@@ -17,8 +17,8 @@
 
     <!-- Bootstrap Scripts -->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.6.0/dist/umd/popper.min.js" integrity="sha384-KsvD1yqQ1/1+IA7gi3P0tyJcT3vR+NdBTt13hSJ2lnve8agRGXTTyNaBYmCR/Nwi" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.min.js" integrity="sha384-nsg8ua9HAw1y0W1btsyWgBklPnCUAFLuTMS2G72MMONqmOymq585AcH49TLBQObG" crossorigin="anonymous"></script>
 </head>
 
 <body>
@@ -95,32 +95,32 @@
             <div class="row">
                 <div class="skills-box col-lg-2">
                     <i class="icon fas fa-laptop fa-4x"></i>
-                    <a href="#" class="btn btn-primary skills-title" data-toggle="modal" data-target="#languages">Languages</a>
+                    <button type="button" class="btn btn-primary skills-title" data-bs-toggle="modal" data-bs-target="#languages">Languages</button>
                 </div>
 
                 <div class="skills-box col-lg-2">
                     <i class="icon fas fa-tasks fa-4x"></i>
-                    <a href="#" class="btn btn-primary skills-title" data-toggle="modal" data-target="#methodologies">Methodologies</a>
+                    <button type="button" class="btn btn-primary skills-title" data-bs-toggle="modal" data-bs-target="#methodologies">Methodologies</button>
                 </div>
 
                 <div class="skills-box col-lg-2">
                     <i class="icon fas fa-tasks fa-4x"></i>
-                    <a href="#" class="btn btn-primary skills-title" data-toggle="modal" data-target="#databases">Databases</a>
+                    <button type="button" class="btn btn-primary skills-title" data-bs-toggle="modal" data-bs-target="#databases">Databases</button>
                 </div>
 
                 <div class="skills-box col-lg-2">
                     <i class="icon fas fa-tasks fa-4x"></i>
-                    <a href="#" class="btn btn-primary skills-title" data-toggle="modal" data-target="#orms">ORMs</a>
+                    <button type="button" class="btn btn-primary skills-title" data-bs-toggle="modal" data-bs-target="#orms">ORMs</button>
                 </div>
 
                 <div class="skills-box col-lg-2">
                     <i class="icon fas fa-tasks fa-4x"></i>
-                    <a href="#" class="btn btn-primary skills-title" data-toggle="modal" data-target="#source-control">Source Control</a>
+                    <button type="button" class="btn btn-primary skills-title" data-bs-toggle="modal" data-bs-target="#source-control">Source Control</button>
                 </div>
 
                 <div class="skills-box col-lg-2">
                     <i class="icon fas fa-tasks fa-4x"></i>
-                    <a href="#" class="btn btn-primary skills-title" data-toggle="modal" data-target="#software-packages">Software Packages</a>
+                    <button type="button" class="btn btn-primary skills-title" data-bs-toggle="modal" data-bs-target="#software-packages">Software Packages</button>
                 </div>
             </div>
         </div>
@@ -130,7 +130,189 @@
     <section class="employment-section" id="employment">
         <div class="container-fluid">
             <h1 id="employment-head">Employment</h1>
+            <a href="pages/Employment-History.html">Click here to see a full employment history</a>
+            <div id="testimonial-carousel" class="carousel slide" data-bs-ride="false">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#testimonial-carousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#testimonial-carousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#testimonial-carousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    <button type="button" data-bs-target="#testimonial-carousel" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                    <button type="button" data-bs-target="#testimonial-carousel" data-bs-slide-to="4" aria-label="Slide 5"></button>
+                    <button type="button" data-bs-target="#testimonial-carousel" data-bs-slide-to="5" aria-label="Slide 6"></button>
+                    <button type="button" data-bs-target="#testimonial-carousel" data-bs-slide-to="6" aria-label="Slide 7"></button>
+                    <button type="button" data-bs-target="#testimonial-carousel" data-bs-slide-to="7" aria-label="Slide 8"></button>
+                    <button type="button" data-bs-target="#testimonial-carousel" data-bs-slide-to="8" aria-label="Slide 9"></button>
+                    <button type="button" data-bs-target="#testimonial-carousel" data-bs-slide-to="9" aria-label="Slide 10"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <h2 class="employment-item-heading"><b>March 2020 - Present: XSight Systems, Software Engineer</b> </h2>
+                        <p class="employment-body">XSight systems develop and manufacture FOD detection systems for use on airport runways</p>
+                        <ul>
+                            <li>Worked in C# to develop various windows services, eg. to retrieve flight arrival and departure I formation from a web service and match a flight to a FOD detected</li>
+                            <li>Developed various solutions which included services and desktop apps</li>
+                            <li>Investigated and developed maintenance solutions and bugfixes </li>
+                        </ul>
+                    </div>
 
+                    <div class="carousel-item">
+                        <h2 class="employment-item-heading"><b>February 2019 – January 2020: SolarEdge Technologies, Software Engineer</b> </h2>
+                        <p class="employment-body">Solaredge is a leading providerof smart energy solutions</p>
+                        <ul>
+                            <ul>
+                                <li>Worked in C# to develop various windows services, eg. to manage upload download of files from various Queues on RabbitMQ server/exchange</li>
+                                <li>Was responsible for creating and managing Nuget packages used internally</li>
+                                <li>Developed various solutions which included services and desktop apps</li>
+                            </ul>
+                        </ul>
+
+                    </div>
+
+                    <div class="carousel-item">
+                        <h2 class="employment-item-heading"><b>05/06/2017 – February 2019: Nova Measuring, Software Engineer</b> </h2>
+                        <p class="employment-body">Nova Measuring manufacture measuring equipment for the semiconductor industry.</p>
+                        <ul>
+                            <li>Used Delphi, C# and C/C++ and design patterns</li>
+                            <li>Designed and developed low -level drivers to interact with components of the tools</li>
+                            <li>Performed support role dealing with bugs and issues with various products and drivers</li>
+                        </ul>
+
+                    </div>
+
+                    <div class="carousel-item">
+                        <h2 class="employment-item-heading"><b>01/05/2016 – 31/03/2017: iMDSoft, Customer Solutions Developer</b> </h2>
+                        <p class="employment-body">iMDSoft develop a clinical Information service which is used globally in Intensive care units (Neo-natal, and regular) and in Operating Theatres.</p>
+                        <ul>
+                            <li>Used WinForms, WCF, WPF, RESTful Services, design patterns & SQL </li>
+                            <li>Designed and developed drivers and interfaces which allowed data to be retrieved from various medical device, i.e. ventilators, dialysis machines, cardiographs and medicine pumps</li>
+                            <li>Designed and developed custom Add ins for the software as per client specs</li>
+                            <li>Performed a support role which involved investigating and fix bugs in the various products, drivers, interfaces or add ins.</li>
+                        </ul>
+
+                    </div>
+
+                    <div class="carousel-item">
+                        <h2 class="employment-item-heading"><b>01/2016-02/2016: Logican, Developer (Consultant)</b> </h2>
+                        <p class="employment-body">Logican, is based in the UK, and develops CRM products for various industries including Insurance, Legal Practices and Debt counsellors.</p>
+                        <ul>
+                            <li>Developed the functionality to implement the Signable digital signing API to allow the client to have documents digitally signed. Implemented both a WCF and WebAPI implementation.</li>
+                            <li>Provided Technical document on the solution and Helped with Testing.</li>
+                            <li>Used WinForms, WCF, WebAPI, RESTful Services, design patterns & SQL Server</li>
+                        </ul>
+
+                    </div>
+
+                    <div class="carousel-item">
+                        <h2 class="employment-item-heading"><b>10/2014-08/2015: Kube Services – IT consultants. Senior Developer (Consultant)</b> </h2>
+                        <p class="employment-body">Kube Services is a company which outsources developers to meet the specific needs of their clients, this ranges from Web development to CRM customization and Plugin development as well as a full range of design skills. Projects
+                            worked on included a Forex website, Financial Management software, Backend services and CRM Customization.</p>
+                        <ul>
+                            <li>Maintain a legacy Delphi application, and perform development requirements as needed</li>
+                            <li>Develop back-end services for use to apply business logic, security and validation and to deliver data for consumption by a website using C# and ASP.NET</li>
+                            <li>Developed CRM plugins</li>
+                            <li>Used Delphi, WCF, ASP.NET (Beginner), JavaScript, Design Patterns, K2, SSIS, CRM & SQL Server</li>
+                        </ul>
+
+                    </div>
+
+                    <div class="carousel-item">
+                        <h2 class="employment-item-heading"><b>12/2013-09/2014: SMS Portal – Bulk SMS provider, Senior Developer</b> </h2>
+                        <p class="employment-body">SMS Portal provided a Bulk SMS service via a web portal which allowed clients to send bulk smses to a pre-defined list of cell numbers. The services were able to predict the likelihood of a message being successfully sent based
+                            on the state of the Cellphone number and past history. It would then route the messages in a balanced manner to avoid bottlenecks.</p>
+                        <ul>
+                            <li>Develop back-end services for use to apply business logic, security and validation and to deliver data for consumption by a website/ web portal.</li>
+                            <li>The service is also meant to be used as a 3rd party tool for clients who create their own UI.</li>
+                            <li>Creation of Test plans and authoring specs</li>
+                            <li>Used WCF, ServiceStack, Design Patterns & SQL</li>
+                        </ul>
+
+                    </div>
+
+                    <div class="carousel-item">
+                        <h2 class="employment-item-heading"><b>06/2012-11/2013: Triple Point Technologies – Vessel Chartering Software, Senior Developer</b> </h2>
+                        <p class="employment-body">Triple Point Technologies are a commodities trading company based in the US, the division that I worked for developed Vessel Chartering software which allowed shipping brokers to Estimate and then charter cargo vessels. The product
+                            made use of web services to get real time information about the vessels, the availability of fuel and the weather, it was also able to charter the routes between ports according to certain criteria.</p>
+                        <ul>
+                            <li>Develop back-end services used to apply business logic, security and validation and to deliver and update data for consumption by a distributed application</li>
+                            <li>Creation of Test plans and authoring specs</li>
+                            <li>Used Winform, WCF, nHibernate, Design Patterns, SQL Server 2012</li>
+                        </ul>
+
+                    </div>
+
+                    <div class="carousel-item">
+                        <h2 class="employment-item-heading"><b>06/2007-05/2012: Compuscan (Pty) Ltd – Credit Bureau,. Senior Developer</b> </h2>
+                        <p class="employment-body">Compuscan is a credit bureau which developed an in house product to help Micro-lenders create and manage their loans. The product employed biometrics as a security feature and was able to perform credit checks against a centralized
+                            Loan registry. It was also the only product to comply with the South African Credit regulations. They also helped developing countries establish their own credit bureaus.</p>
+                        <ul>
+                            <li>Developed features for an existing product, which managed micro loans.</li>
+                            <li>Developed a rules engine to be used in an application to validate data sent via FTP to central location.</li>
+                            <li>Managed a development team responsible for customizing the product for a specific client</li>
+                            <li>Used C#, WPF, MVVM, Threading and design patterns</li>
+                        </ul>
+
+                    </div>
+
+                    <div class="carousel-item">
+                        <h2 class="employment-item-heading"><b>07/2003-05/2007: MasterMaths – Educational Software, Senior Developer</b> </h2>
+                        <p class="employment-body">MasterMaths is a franchise which provides extra lessons in Mathematics and Physics. They operate nationally in South Africa, and also offer a service where students can lease the software on a grade- by grade basis and study at
+                            home. The software or material complied to the syllabus presented in schools, and in many cases was used in the schools themselves.</p>
+                        <ul>
+                            <li>Developed Delphi applications used to deliver multimedia lessons in Mathematics and Physics</li>
+                            <li>Authored the technical documentation and Created the InstallShield installation sets to deploy the products</li>
+                            <li>Used Delphi, InstallShield and SQL Server</li>
+                        </ul>
+
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#testimonial-carousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#testimonial-carousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+        </div>
+
+    </section>
+
+    <!-- Academic History -->
+    <section class="academic-history--section" id="academic-history">
+        <div class="container-fluid">
+            <h1 id="academic-history-head">Academic History</h1>
+            <table id="academic-table" cellspacing="100">
+                <thead>
+                    <tr>
+                        <th class="academic-th-head">
+                            Dates
+                        </th>
+                        <th class="academic-th-head">
+                            Institution
+                        </th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><b>1999-2001 : </b>
+                        </td>
+                        <td>Computer Training Institute – Computer Science diploma degree awarded with Honours</td>
+                    </tr>
+                    <tr>
+                        <td><b>1990-1994 : </b>
+                        </td>
+                        <td>Cape Technikon/ – National Higher diploma mechanical Engineering awarded (Cum Lauda)</td>
+                    </tr>
+                    <tr>
+                        <td><b>1984-1988 : </b>
+                        </td>
+                        <td>Herzlia Primary, Middle and High School</td>
+                    </tr>
+                </tbody>
+
+            </table>
+        </div>
 
     </section>
 
@@ -163,13 +345,12 @@
                     <div class="modal-title">
                         Languages & Platforms
                     </div>
-                    <button type="button" class="close" data-dismiss="modal">x</button>
                 </div>
                 <div class="modal-body">
                     C/C++, .Net,.Net Core, C# (6+ yrs.) and ASP.NET (
                     <1yr), Java, JavaScript, Microsoft Dynamics CRM, Visual Studio, Microsoft BI </div>
                         <div class="modal-footer">
-                            <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                            <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
                         </div>
                 </div>
             </div>
@@ -182,7 +363,6 @@
                         <div class="modal-title">
                             Methodologies & Technologies
                         </div>
-                        <button type="button" class="close" data-dismiss="modal">x</button>
                     </div>
                     <div class="modal-body">
                         <h4 class="modal-head"><strong>Technologies: </strong></h4>
@@ -192,7 +372,7 @@
                         <p>Scrum, Test Driven Development, Domain Driven Design, Design Patterns and OOP</p>
                     </div>
                     <div class="modal-footer">
-                        <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
                     </div>
                 </div>
             </div>
@@ -205,13 +385,12 @@
                             <div class="modal-title">
                                 Databases
                             </div>
-                            <button type="button" class="close" data-dismiss="modal">x</button>
                         </div>
                         <div class="modal-body">
                             SQL Server, Firebird, MySQL & Postgres (minimal exposure), MongoDB & Elasticsearch (minimal exposure)
                         </div>
                         <div class="modal-footer">
-                            <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                            <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
                         </div>
                     </div>
                 </div>
@@ -224,13 +403,12 @@
                                 <div class="modal-title">
                                     ORMs
                                 </div>
-                                <button type="button" class="close" data-dismiss="modal">x</button>
                             </div>
                             <div class="modal-body">
                                 nHibernate, Entity Framework
                             </div>
                             <div class="modal-footer">
-                                <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                                <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
                             </div>
                         </div>
                     </div>
@@ -243,13 +421,12 @@
                                     <div class="modal-title">
                                         Source Control Systems
                                     </div>
-                                    <button type="button" class="close" data-dismiss="modal">x</button>
                                 </div>
                                 <div class="modal-body">
                                     Mercurial, Subversion, GIT, Visual Source Safe and TFS
                                 </div>
                                 <div class="modal-footer">
-                                    <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                                    <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
                                 </div>
                             </div>
                         </div>
@@ -262,13 +439,12 @@
                                         <div class="modal-title">
                                             Software Packages
                                         </div>
-                                        <button type="button" class="close" data-dismiss="modal">x</button>
                                     </div>
                                     <div class="modal-body">
                                         Microsoft Office Suite, Lotus SmartSuite, Corel WordPerfect, Installshield
                                     </div>
                                     <div class="modal-footer">
-                                        <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                                        <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
                                     </div>
                                 </div>
                             </div>
