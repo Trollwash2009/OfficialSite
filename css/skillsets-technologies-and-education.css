@@ -2,7 +2,7 @@
         
         body {
             margin: 0;
-            background-color: #66BFBF;
+            background-color: #a7c5eb;
             text-align: center;
             font-family: 'Montserrat Sans', serif;
         }
@@ -10,17 +10,17 @@
         h1 {
             margin-top: 0;
             font-family: 'Montserrat', cursive;
-            color: #fff;
+            color: #000;
         }
         
         h2,
         h3 {
             font-family: 'Montserrat', serif;
-            color: #fff;
+            color: #000;
         }
         
         div {
-            background-color: #e4f9f5;
+            background-color: #4a47a3;
             margin: 0;
         }
         
@@ -29,7 +29,7 @@
         }
         
         a {
-            color: #fff;
+            color: #000;
             font-family: 'Montserrat', serif;
             margin: 10px 20px;
             text-decoration: none;
@@ -47,6 +47,7 @@
         }
         
         .bottom-container {
+            background-color: #4a47a3;
             position: relative;
             display: block;
             top: 246px;
@@ -55,13 +56,13 @@
         
         .skills-head {
             font-family: 'Montserrat', serif;
-            color: #fff;
+            color: #000;
             text-align: left;
             text-decoration: underline;
         }
         
         .skills-text {
             font-family: 'Montserrat', serif;
-            color: #fff;
+            color: #000;
             text-align: left;
         }

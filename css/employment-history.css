@@ -1,90 +1,96 @@
-/*********** Tag Selectors ********************/
-
-body {
-    margin: 0;
-    background-color: #66BFBF;
-    text-align: center;
-    font-family: 'Montserrat Sans', serif;
-}
-
-h1,
-h2 {
-    margin-top: 0;
-    font-family: 'Montserrat', cursive;
-    color: #fff;
-}
-
-h3 {
-    font-family: 'Montserrat', serif;
-}
-
-div {
-    background-color: #e4f9f5;
-    margin: 0;
-}
-
-img {
-    margin: 0px;
-}
-
-a {
-    color: #fff;
-    font-family: 'Montserrat', serif;
-    margin: 10px 20px;
-    text-decoration: none;
-}
-
-a:hover {
-    color: #3498DB;
-}
-
-
-/*********** Class Selectors ********************/
-
-.copyright {
-    color: #eaf6f6;
-    font-size: 0.75rem;
-    padding: 20px 0;
-}
-
-.bottom-container {
-    position: relative;
-    display: block;
-    top: 246px;
-    background-color: #66BFBF;
-    padding: 50px 0 20px;
-}
-
-*********** Id Selectors ********************/ #customers {
-    font-family: 'Montserrat', serif;
-    border-collapse: collapse;
-    width: 100%;
-}
-
-#customers td,
-#customers th {
-    border: 1px solid #4CAF50;
-    font-family: 'Montserrat', serif;
-    padding: 8px;
-    text-align: left;
-}
-
-#customers tr:nth-child(even) {
-    background-color: #EAF6F6;
-}
-
-#customers tr:hover {
-    background-color: #66BFBF;
-}
-
-#customers th {
-    padding-top: 12px;
-    padding-bottom: 12px;
-    text-align: left;
-    background-color: #4CAF50;
-    color: white;
-}
-
-.employment-table-head {
-    color: #fff;
-}
+        /*********** Tag Selectors ********************/
+        
+        body {
+            margin: 0;
+            background-color: #a7c5eb;
+            text-align: center;
+            font-family: 'Montserrat Sans', serif;
+        }
+        
+        h1,
+        h2 {
+            margin-top: 0;
+            font-family: 'Montserrat', cursive;
+            color: #000;
+        }
+        
+        h3 {
+            font-family: 'Montserrat', serif;
+        }
+        
+        div {
+            background-color: #e4f9f5;
+            margin: 0;
+        }
+        
+        img {
+            margin: 0px;
+        }
+        
+        a {
+            color: #000;
+            font-family: 'Montserrat', serif;
+            margin: 10px 20px;
+            text-decoration: none;
+        }
+        
+        #bottom-link {
+            color: #fff;
+        }
+        
+        #bottom-link:hover {
+            color: #000;
+        }
+        
+        a:hover {
+            color: #3498DB;
+        }
+        /*********** Class Selectors ********************/
+        
+        .copyright {
+            color: #fff;
+            font-size: 0.75rem;
+            padding: 20px 0;
+        }
+        
+        .bottom-container {
+            position: relative;
+            display: block;
+            top: 246px;
+            background-color: #413c69;
+            padding: 50px 0 20px;
+        }
+        
+        *********** Id Selectors ********************/ #customers {
+            font-family: 'Montserrat', serif;
+            border-collapse: collapse;
+            width: 100%;
+        }
+        
+        #customers td,
+        #customers th {
+            border: 1px solid #413c69;
+            font-family: 'Montserrat', serif;
+            padding: 8px;
+            text-align: left;
+        }
+        
+        #customers tr:nth-child(even) {
+            background-color: #EAF6F6;
+        }
+        
+        #customers tr:hover {
+            background-color: #709fb0;
+        }
+        
+        #customers th {
+            padding-top: 12px;
+            padding-bottom: 12px;
+            text-align: left;
+            background-color: #413c69;
+            color: white;
+        }
+        
+        .employment-table-head {
+            color: #000;
+        }

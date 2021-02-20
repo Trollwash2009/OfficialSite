@@ -34,6 +34,7 @@
                 text-align: left;
                 margin-top: 30px;
                 padding-bottom: 10px;
+                color: #fff;
             }
             
             .section-heading {
@@ -49,7 +50,7 @@
             
             .title-section {
                 font-family: "Montserrat-bold";
-                background-color: #11999E;
+                background-color: #413c69;
                 ;
                 color: #fff;
                 height: auto;
@@ -58,6 +59,10 @@
             
             .white-section {
                 background-color: #fff;
+            }
+            
+            .skills-section {
+                background-color: 4a47a3;
             }
             /*Navigation Bar */
             
@@ -97,7 +102,7 @@
             }
             
             #skills-head {
-                color: #66BFBF;
+                color: #413c69;
                 font-family: "Montserrat";
                 font-size: 3rem;
                 font-weight: bold;
@@ -121,7 +126,7 @@
             
             #employment {
                 font-family: "Montserrat";
-                background-color: #66BFBF;
+                background-color: #413c69;
                 position: relative;
                 color: #fff;
             }
@@ -155,13 +160,13 @@
             
             #academic-history {
                 font-family: "Montserrat";
-                color: #66BFBF;
+                color: #413c69;
                 position: relative;
             }
             
             #academic-history-head {
                 font-family: "Montserrat";
-                color: #66BFBF;
+                color: #413c69;
                 font-size: 3rem;
                 height: auto;
             }
@@ -183,7 +188,7 @@
             
             #personal {
                 font-family: "Montserrat";
-                background-color: #66BFBF;
+                background-color: #413c69;
                 position: relative;
             }
             

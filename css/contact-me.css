@@ -2,7 +2,7 @@
 
 body {
     margin: 0;
-    background-color: #66BFBF;
+    background-color: #a7c5eb;
     text-align: center;
     font-family: 'Montserrat Sans', serif;
 }
@@ -10,14 +10,14 @@ body {
 h1 {
     margin-top: 0;
     font-family: 'Montserrat', cursive;
-    color: #fff;
+    color: #000;
 }
 
 h2,
 h3,
 p {
     font-family: 'Montserrat', serif;
-    color: #fff;
+    color: #000;
 }
 
 div {
@@ -30,19 +30,19 @@ img {
 }
 
 a {
-    color: #fff;
+    color: #000;
     font-family: 'Montserrat', serif;
     margin: 10px 20px;
     text-decoration: none;
 }
 
 a:hover {
-    color: #3498DB;
+    color: #fff;
 }
 
 label {
     font-family: 'Montserrat', cursive;
-    color: #fff;
+    color: #000;
 }
 
 td {
@@ -65,7 +65,7 @@ td {
 }
 
 .copyright {
-    color: #eaf6f6;
+    color: #fff;
     font-size: 0.75rem;
     padding: 20px 0;
 }
@@ -74,8 +74,13 @@ td {
     position: relative;
     display: block;
     top: 246px;
-    background-color: #66BFBF;
+    background-color: #413c69;
+    color: #fff;
     padding: 50px 0 20px;
+}
+
+.bottom-text {
+    color: #fff;
 }
 
 .comment-label {
